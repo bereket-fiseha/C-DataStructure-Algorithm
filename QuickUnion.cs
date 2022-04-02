@@ -23,8 +23,8 @@ return root(p)==root(q);
 
 public void union(int p,int q){
 
-rootOFP=root(p);
-rootOFQ=root(q);
+int rootOFP=root(p);
+int rootOFQ=root(q);
 
 id[rootOFP]=rootOFQ;
 
