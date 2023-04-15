@@ -1,3 +1,7 @@
+
+
+namespace C_Algo_DataStructure
+{
 public class QuickUnion{
 private int[] id;
  public QuickUnion(int arrayLength){
@@ -32,4 +36,4 @@ id[rootOFP]=rootOFQ;
 }
 
 
-}
+}}
